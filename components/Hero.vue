@@ -1,6 +1,9 @@
 <template>
   <!-- Hero Section Start -->
-  <section id="home" class="pt-36">
+  <section
+    id="home"
+    class="pt-36 bg-gradient-to-r from-slate-100 to-blue-200 dark:bg-gradient-to-r dark:from-slate-100 dark:via-lime-50 dark:to-neutral-500"
+  >
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2">

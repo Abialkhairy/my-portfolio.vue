@@ -1,6 +1,9 @@
 <template>
   <!-- About Section Start -->
-  <section id="about" class="pt-36 pb-32">
+  <section
+    id="about"
+    class="pt-36 pb-32 bg-gradient-to-r from-green-200 to-slate-100"
+  >
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full px-4 mb-10 lg:w-1/2">

@@ -1,11 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    script: [
-      {
-        src: "assets/js/Hamburger.js",
-      },
-    ],
     title: 'Portfolio',
     htmlAttrs: {
       lang: 'en'
@@ -27,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "~/assets/js/script.js", ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
